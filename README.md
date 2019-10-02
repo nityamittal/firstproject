@@ -1,2 +1,2 @@
 # firstproject
-n/a
+Learning GitHub for #HacktoberFest
