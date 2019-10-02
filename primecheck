@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
 	int a,b,c=0;
+	printf("Enter the number to be checked \n");
 	scanf("%d",&a);
 	for(b=2;b<a/2;b++){
 		if(a%b==0){
@@ -9,8 +10,8 @@ int main(){
 		}
 	}
 	if(c==1){
-		printf("not a prime");
+		printf("Entered number is not prime.");
 	}
 	else
-	printf("prime");
+	printf("Entered number is prime.");
 }
